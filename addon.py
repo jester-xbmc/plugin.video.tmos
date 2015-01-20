@@ -25,8 +25,8 @@ plugin = Plugin()
 def show_tmos_list():
     items = [
 
-  {'label': 'TMOS Episodes on YouTube',
-   'icon': 'special://home/addons/plugins.video.tmos/icon.png',
+  {'label': 'TMOS Episodes',
+   'thumbnail': 'special://home/addons/plugin.video.tmos/icon.png',
    'path': 'plugin://plugin.video.youtube/channel/UCtO6jOECGV2FQHj4RGOXyDA/?page=1',
   },
 
