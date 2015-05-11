@@ -32,7 +32,7 @@ def show_tmos_list():
 
   {'label': 'TMOS Live Ustream (Mon. through Fri. 10:00am EST)',
    'thumbnail': 'special://home/addons/plugin.video.tmos/icon.png',
-   'path': 'http://sjc-uhls-proxy.ustream.tv/watch/playlist.m3u8?cid=4443605',
+   'path': 'http://iphone-streaming.ustream.tv/ustreamVideo/4443605/streams/live/playlist.m3u8',
    'is_playable': True,
   },
 ]
