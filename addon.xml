@@ -11,11 +11,17 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">TMOS Podcasts and Live Streams</summary>
     <description lang="en">Streams The Mike O'Meara Show (TMOS) podcasts from YouTube and the Live Audio & Ustream.</description>
+	<news>v1.0.6 (26-03-2017)
+	- Update youtube version requirement, add 24/7 audio stream</news>
     <platform>all</platform>
     <language>en</language>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
     <source>https://github.com/jester-xbmc/plugin.video.tmos</source>
     <forum>http://forum.kodi.tv/showthread.php?tid=215704</forum>
     <website>http://mikeomearashow.com/</website>
+	<assets>
+     <icon>icon.png</icon>
+     <fanart>fanart.jpg</fanart>
+    </assets>
   </extension>
 </addon>
