@@ -17,7 +17,7 @@
 #    along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 
-from xbmcswift2 import Plugin, xbmc
+from kodiswift import Plugin, xbmc
 
 plugin = Plugin()
 
@@ -34,13 +34,13 @@ def show_tmos_list():
   {'label': 'TMOS Live Ustream (Mon. through Fri. 09:00am EST)',
    'icon': 'special://home/addons/plugin.video.tmos/icon.png',
    'path': 'http://iphone-streaming.ustream.tv/uhls/4443605/streams/live/iphone/playlist.m3u8',
-   'is_playable': True,'selected': True,
+   'is_playable': True,
   },
   
   {'label': 'TMOS 24/7 Audio Stream',
    'icon': 'special://home/addons/plugin.video.tmos/icon.png',
    'path': 'http://playerservices.streamtheworld.com/api/livestream-redirect/TMOS.mp3',
-   'is_playable': True,'selected': True,
+   'is_playable': True,
   },
 ]
     return plugin.finish(items)
